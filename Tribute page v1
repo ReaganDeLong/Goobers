@@ -3,35 +3,57 @@ This is my first attempt at writing code from scratch. Be gentle :-)
 -->
 
 <!DOCTYPE HTML>
-<main id="main">
-  <style>
+<html>
+  
+<main id="main" class="main">
+
+   <style>
+.main {
+  background-color:#b794ff;
+}
+
   .image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
+    border-color: #6920fa;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+  }
+  .fun-facts {
+    margin: 25px;
   }
   </style>
 
 <title id="title">A tribute page to my cat, Apple.
     </title>
 
-<h1 align="center">My Cat Apple</h1>
+<h1 align="center" style="color: white;">My Cat Apple</h1>
 
   <div id="img-div">
   <a id="tribute-link" href="#" target="_blank">
   <img id="image" class="image" src="https://i.ibb.co/wynLcBQ/IMG-5338.jpg" alt="Apple Boi">
   </a>
     <div id="img-caption"
-    align="center">A picture of my cat, apple Boi.
+    align="center" style="color: white;"><i>A picture of my cat, Apple Boi.</i>
       </div>
     </div>
 
+  <p id="tribute-info" style="color: white;" align="center"><b>
+    Fun Facts about Apple</b>
+</p>
+<div align="center">
 
-
-  <h1>My Cat Apple</h1>
-
-  <p id="tribute-info">
-    This is going to be the textual content describing the subject of the tribute page (APPLE BOI).
-    </p>
+</div>
+  <ul style="color: white;" id="fun-facts" class="fun-facts">
+    <li>I adopted him in the winter of 2017, along with Peso. Both are FIV+</li><br>
+    <li>He is not named after the tech company! He was brought in as a group and they were all named fruits, i.e. 'Melon', 'Berry', 'Apple', etc.</li><br>
+    <li>Apple developed a bad case of stomatitis (oral disease) and he needed to have all of his teeth extracted. Yes, he still eats hard food!</li><br>
+    <li>A hilarious bit of confusion: When I adopted Apple, I was told that Apple was a girl. When Apple was being examined and prepped for surgery to remove her teeth, the veterinarean surgeon informed me that She was, in fact, a He. Apple is a boy! Whoops!</li><br>
+    <li>Apple does not play very much but he thoroughly enjoys being brushed (even though there’s not much fur to brush).</li><br>
+    <li>Apple is the least intelligent cat in our home (out of 5 total), but he is easily the sweetest and most loving. Perhaps ignorance really is bliss.</li>
+    
   </main>
+</html>
