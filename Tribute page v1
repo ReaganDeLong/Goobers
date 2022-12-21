@@ -1,0 +1,37 @@
+<!--
+This is my first attempt at writing code from scratch. Be gentle :-)
+-->
+
+<!DOCTYPE HTML>
+<main id="main">
+  <style>
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  </style>
+
+<title id="title">A tribute page to my cat, Apple.
+    </title>
+
+<h1 align="center">My Cat Apple</h1>
+
+  <div id="img-div">
+  <a id="tribute-link" href="#" target="_blank">
+  <img id="image" class="image" src="https://i.ibb.co/wynLcBQ/IMG-5338.jpg" alt="Apple Boi">
+  </a>
+    <div id="img-caption"
+    align="center">A picture of my cat, apple Boi.
+      </div>
+    </div>
+
+
+
+  <h1>My Cat Apple</h1>
+
+  <p id="tribute-info">
+    This is going to be the textual content describing the subject of the tribute page (APPLE BOI).
+    </p>
+  </main>
